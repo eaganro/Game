@@ -1,0 +1,17 @@
+:local(.cell) {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 2px;
+  height: 2px;
+  background-color: red;
+}
+:local(.cell1) {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 2px;
+  height: 2px;
+  background-color: blue;
+}
+:local(.row) {
+  height: 2px;
+}

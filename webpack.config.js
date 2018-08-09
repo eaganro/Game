@@ -13,6 +13,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.css$/,
+        use: [ 'style-loader', 'css-loader' ]
+      }, 
+      {
         test: /\.jsx$/,
         include: __dirname + '/client/dev',
         use: {
